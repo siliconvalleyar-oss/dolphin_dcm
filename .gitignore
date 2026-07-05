@@ -1,0 +1,97 @@
+# DolphinUSG - Wireless Ultrasound DICOM Project
+
+# =========================
+# Build & Compilation
+# =========================
+*.class
+*.dex
+*.apk
+*.aab
+*.jar
+*.war
+*.ear
+*.so
+*.o
+*.a
+*.dylib
+build/
+build-*/
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# =========================
+# Android Studio / IDE
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+.project
+.classpath
+.settings/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# =========================
+# Sensitive / Credentials
+# =========================
+*.env
+.env
+.env.*
+credentials.json
+keystore.jks
+*.keystore
+*.key
+*.pem
+*.p12
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+vendor/
+.pip-cache/
+
+# =========================
+# Decompilation Artifacts
+# =========================
+jadx_output/
+apktool_output/
+frida_output/
+
+# =========================
+# Medical Device Specific
+# =========================
+patient_data/
+dicom_store/
+dicom_temp/
+*.dcm
+*.dicom
+
+# =========================
+# Documentation Cache
+# =========================
+docs/_build/
+docs/_static/
